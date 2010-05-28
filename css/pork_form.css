@@ -1,3 +1,14 @@
-form.pork_form input, form.pork_form textarea{
-display: block;
+form.pork_form {
+  padding:10px;
+}
+
+form.pork_form input[type="text"],
+form.pork_form input[type="submit"],
+form.pork_form textarea,
+form.pork_form select {
+  display: block;
+}
+
+form.pork_form > * {
+  margin: 0 0 20px 0;
 }
