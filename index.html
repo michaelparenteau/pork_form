@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Pork Form</title>
+
+<link href="css/pork_form.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+	<form class="pork_form">
+		
+		<label for="text_input">Text Input</label>
+		<input type="text" name="text_input" />
+
+		<label for="text_area">Text Area</label>
+		<textarea name="text_area"></textarea>
+		
+		<select name="select_field">
+			<optgroup title="choices">
+				<option value="1">Value 1</option>
+				<option value="2">Value 2</option>
+				<option value="3">Value 3</option>
+			</optgroup>
+		</select>
+		
+		<label for="checkbox">CheckBox</label>
+		<input type="checkbox" name="checkbox"/>
+		
+		<label for="hole_1">Radio Hole 1</label>
+		<input type="radio" name="radio_hole" id="hole_1" value="1">
+		<label for="hole_2">Radio Hole 2</label>
+		<input type="radio" name="radio_hole" id="hole_2" value="2">
+		<label for="hole_3">Radio Hole 3</label>
+		<input type="radio" name="radio_hole" id="hole_3" value="3">
+		
+		<input type="submit" id="submit" name="submit">
+		
+	</form>
+	
+</body>
+
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("jquery", "1.4.2");</script>
+<script type="text/javascript" src="js/jq_functions.js"></script>
+
+</html>
